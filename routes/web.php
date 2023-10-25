@@ -14,26 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('index');
 });
 Route::get('aboutus', function () {
     return view('aboutus');
 });
-Route::get('contact', function () {
-    return view('contact');
-});
-Route::get('home', function () {
-    return view('home');
-});
-Route::get('blog', function () {
-    return view('blog');
-});
+
 Route::get('shop', function () {
     return view('shop');
 });
-Route::get('index', function () {
-    return view('index');
-});
+
 Route::get('cart', function () {
     return view('cart');
 });
